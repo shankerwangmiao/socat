@@ -386,6 +386,9 @@ enum e_optcode {
 #ifdef IP_MTU
    OPT_IP_MTU,
 #endif
+#ifdef IP_TRANSPARENT
+   OPT_IP_TRANSPARENT,
+#endif
 #ifdef IP_MTU_DISCOVER
    OPT_IP_MTU_DISCOVER,
 #endif
